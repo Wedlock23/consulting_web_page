@@ -1,0 +1,5 @@
+consilting website to do's
+-link logout page instead of deleting content
+-add action that actually logs the user out 
+
+-img not working 

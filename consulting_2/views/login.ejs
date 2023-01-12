@@ -1,0 +1,45 @@
+<!-- Logout confirmation screen -->
+<!-- need to connect it up to server functions -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/myCSS.css">
+        <link rel="stylesheet" href="/views/css/bootstrap.css.map">
+    </head>
+    <body>
+    <center>
+        <h1>Trulaske Consulting Club</h1>
+        <img src="/views/site_images/ALWAYS REMBER.jpg" alt="img not working">
+        <br></br>
+        <h1>Welcome, Please Login</h1>
+        <% if (messages.error) { %>
+            <%= messages.error %>
+         <% } %>
+        <form action="/login" method="POST">
+
+    <div>
+<label for="email">Email: </label>
+<input type="text" id="email" name="email" required>
+    </div>
+    <br>
+    <div>
+<label for="password">Password: </label>
+<input type="text" id="password" name="password" required>
+    </div>
+    <br>
+    <section>
+        <button type='submit'>Login</button>
+    </section>
+    <br>
+    <a href="/register">Register / Create Login</a>
+</form>
+
+<script src="" async defer></script>
+</center>
+</body>
+</html>

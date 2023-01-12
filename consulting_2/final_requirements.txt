@@ -1,0 +1,29 @@
+Web Dev Final Project Requirements
+
+database with MySQL or MonogoDB. [/]
+
+Your website must access and utilize your database []
+by adding fields and extracting information.  
+
+functioning framework of your choice. [/]
+bootstrap, w3.css or any other framework
+
+
+Node.js [/]
+
+docker []
+
+
+SUBMISSION
+
+.zip file []
+
+video of deployment []
+(on google drive)
+LINK through a comment
+
+development document []
+a brief description of your application such as the purpose of the app. Then 
+document the development. Explain the files that were created, the 
+dependencies of node that was used, the framework that was used and finally 
+and web pages that were added. 

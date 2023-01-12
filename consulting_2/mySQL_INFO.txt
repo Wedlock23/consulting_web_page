@@ -1,0 +1,10 @@
+mysql info
+
+mySQL root password: @blueBird25
+
+connection name: Final_project
+username: root
+pass: @blueJay24
+
+        <!-- access a row from the database and render it -->
+        <!-- <h2>Email: <%- rows[0].email%></h2> -->
